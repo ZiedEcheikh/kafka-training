@@ -6,7 +6,13 @@
 
     <groupId>org.example</groupId>
     <artifactId>kafka-training</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>kafka-basics</module>
+        <module>kafka-producer</module>
+        <module>kafka-consumer</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -18,11 +24,7 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.5</version>
         </dependency>
-        <dependency>
-            <groupId>com.twitter</groupId>
-            <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
-            <version>2.2.0</version> <!-- or whatever the latest version is -->
-        </dependency>
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>

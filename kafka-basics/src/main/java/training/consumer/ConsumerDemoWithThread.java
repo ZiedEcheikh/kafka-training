@@ -1,4 +1,4 @@
-package com.kafka.training.consumer;
+package training.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
